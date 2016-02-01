@@ -1,0 +1,5 @@
+* Recurrent architectures seems to be very important for the neural networks, a run using a map function which by nature will brake this recurrency show that the results were much worse.
+
+* Another run with optimization of the connections between the hidden and output layer was found to also decrease the performance for the iris problem. 
+
+* The training method also seemd to be corrolated to the better performance, using the validation set from cross validation for validation before component selection could be vital. A seperate test set is then used for testing.
